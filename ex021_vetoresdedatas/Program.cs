@@ -14,6 +14,24 @@
                 Console.WriteLine("O mês de " + meses[i] + " tem " + dias[i] + " dias.");
             }
 
+            Console.WriteLine();
+
+
+
+            string[] semana = { "Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado" };
+
+            foreach (string dia in semana) // foreach não traz o indice ele traz o valor e só conseguimos trabalhar com um vetor por vez
+            {
+                Console.WriteLine(dia);
+            }
+
+            Console.WriteLine();
+
+            foreach (string mes in meses)
+            {
+                Console.WriteLine(mes);
+            }   
+
 
         }
     }
