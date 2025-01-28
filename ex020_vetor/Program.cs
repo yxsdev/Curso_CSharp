@@ -61,7 +61,7 @@
             */
 
             //Usando o string
-            string[] nomes = { "Maria", "João", "José", "Pedro", "Ana", "Carlos", "Marta", "Paulo", "Lucas", "Mariana" };
+            string[] nomes = { "Maria", "João", "José", "Pedro", "Ana", "Carlos", "Marta", "Paulo", "Lucas", "Mariana", "Zeferina" };
 
             for (int i = 0; i < nomes.Length; i++)
             {
@@ -71,9 +71,25 @@
                 }
                 else
                 {
-                    Console.Write(nomes[i] + ".");
+                    Console.WriteLine(nomes[i] + ".");
                 }
             }
+
+            Console.WriteLine(); //Pular linha
+
+            string nome_primeiro = nomes.First(); //O First é para mostrar o primeiro valor do vetor
+            string nome_ultimo = nomes.Last(); //O Last é para mostrar o último valor do vetor
+
+            Console.WriteLine("O primeiro nome é: " + nome_primeiro);
+            Console.WriteLine("O último nome é: " + nome_ultimo);
+
+            string nomes_maior = nomes.Max(); //O Max também serve para classificar em ordem alfabética
+            string nomes_menor = nomes.Min(); //O Min também serve para classificar em ordem alfabética
+
+            Console.WriteLine("O primeiro nome em ordem alfabética é: " + nomes_maior);
+            Console.WriteLine("O último nome em ordem alfabética é: " + nomes_menor);
+
+
         }
     }
 }
