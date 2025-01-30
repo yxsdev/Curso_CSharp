@@ -18,7 +18,7 @@
         static void areaT(double b, double a)
         {
             double t = (b * a) / 2;
-            Console.WriteLine($"A área do triângulo {b} x {b} / 2 é de: {t}.");
+            Console.WriteLine($"A área do triângulo {b} x {a} / 2 é de: {t:F2}.");
         }
     }
 }
