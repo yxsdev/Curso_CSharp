@@ -7,10 +7,13 @@
             // Crie um método que receba dois valores inteiros e um valor de passo e faça a contagem de um valor até o outro de acordo com o passo informado.
 
             Escrever("Determine uma contagem personalizada: ");
+
             Console.Write("Início: ");
             int inicio = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Fim: ");
             int fim = Convert.ToInt32(Console.ReadLine());
+
             Console.Write("Passo: ");
             int passo = Convert.ToInt32(Console.ReadLine());
 
