@@ -24,6 +24,11 @@
         {
             Escrever($"Contagem de {i} até {f} de {p} em {p}.");
 
+            if (p <0)
+            {
+                p *= -1;
+            }
+
             if (i < f)
             {
                 int cont = i;
